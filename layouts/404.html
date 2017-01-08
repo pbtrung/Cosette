@@ -7,17 +7,19 @@
   <div id="content" class="pure-u-11-12 pure-u-md-10-24">
     <div style="padding: 1em 1em 1em 1em;">
       <h1 class="post-title">Oops...</h1>
-      <p>This page mysteriously disappeared. So uhm… I only see 3 options for you:</p>  
-       <ol>
-         <li>Check the URL you entered in the address bar and correct it if necessary.</li>
-         <li><a id="tweeterror" href="https://twitter.com/intent/tweet?text=%40{{ .Site.Author.twitter }}%20This%20page%20on%20your%20website%20seems%20to%20be%20missing%3A" target="_blank">Tweet</a> or <a id="mailerror" href="mailto:{{ .Site.Author.email }}?subject=404%20on%20website&body=This%20page%20on%20your%20website%20seems%20to%20be%20missing%3A%20">email</a> me to let me know this link doesn’t work (anymore).</li>
-         <li>Get a jetpack and take off.</li>
-       </ol>
-       {{ if .Site.Params.img404 }}
-       <p style="text-align: center;">
-           <img style="width: 200px;" src="{{ .Site.Params.img404 }}" alt="jetpack" />
-       </p>
-       {{ end }}
+        <div class="post-content">
+        <p>This page mysteriously disappeared. So uhm… I only see 3 options for you:</p>  
+         <ol>
+           <li>Check the URL you entered in the address bar and correct it if necessary.</li>
+           <li><a id="tweeterror" href="https://twitter.com/intent/tweet?text=%40{{ .Site.Author.twitter }}%20This%20page%20on%20your%20website%20seems%20to%20be%20missing%3A" target="_blank">Tweet</a> or <a id="mailerror" href="mailto:{{ .Site.Author.email }}?subject=404%20on%20website&body=This%20page%20on%20your%20website%20seems%20to%20be%20missing%3A%20">email</a> me to let me know this link doesn’t work (anymore).</li>
+           <li>Get a jetpack and take off.</li>
+         </ol>
+         {{ if .Site.Params.img404 }}
+         <p style="text-align: center;">
+             <img style="width: 200px;" src="{{ .Site.Params.img404 }}" alt="jetpack" />
+         </p>
+         {{ end }}
+         </div>
      </div>
   </div>
   <div class="pure-u-1-24 pure-u-md-7-24"></div>
