@@ -1,0 +1,17 @@
+name = "Cosette"
+license = "MIT"
+licenselink = "https://github.com/pbtrung/Cosette/blob/master/LICENSE"
+description = ""
+homepage = "https://www.trungbpham.com/"
+tags = ["", ""]
+features = ["", ""]
+min_version = 0.18
+
+[author]
+  name = "Trung Pham"
+  homepage = "https://www.trungbpham.com/"
+
+[original]
+  name = "nofancy"
+  homepage = "https://github.com/gizak/nofancy/"
+  repo = "https://github.com/gizak/nofancy/"

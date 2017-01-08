@@ -1,0 +1,3 @@
+# Cosette
+
+A Hugo theme.

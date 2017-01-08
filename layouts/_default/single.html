@@ -1,0 +1,38 @@
+{{ partial "grid-head.html" . }}
+
+    <div class="post">
+
+        <div class="post-title">
+            <p class="footnote">
+                <time class="">{{ .Date.Format "2006-01-02" }}</time>
+	            {{ $baseurl := .Site.BaseURL }}
+                {{ if or .Params.tags .Params.categories .Params.series }}
+                |
+                {{ end }}
+                {{ if isset .Params "tags" }}
+                tags:{{ range .Params.tags }}<a href="{{ $baseurl }}tags/{{ . | urlize }}">{{ . }}</a> {{ end }}
+                {{ end }}
+
+                {{ if isset .Params "categories" }}
+                categories:{{ range .Params.categories }}<a href="{{ $baseurl }}categories/{{ . | urlize }}">{{ . }}</a> {{ end }}
+                {{ end }}
+
+                {{ if isset .Params "series" }}
+                series:{{ range .Params.series }}<a href="{{ $baseurl }}series/{{ . | urlize }}">{{ . }}</a> {{ end }}
+                {{ end }}
+            </p>
+            <h1>{{ .Title }}</h1>
+        </div>
+
+        <div class="post-content">
+            {{ .Content }}
+        </div>
+    </div>
+
+{{ if isset .Site.Params "disqusshortname" }}
+    {{ if not (eq .Params.comments false) }}
+        {{ partial "disqus.html" . }}
+    {{ end }}
+{{ end }}
+
+{{ partial "grid-tail.html" . }}
