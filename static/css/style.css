@@ -6,12 +6,12 @@ html {
 
 body {
 	background-color: #ededed;
-	color: #484848;
+	color: #303030;
 }
 
 .header {
 	text-align: left;
-	color: #484848;
+	color: #303030;
 	margin-bottom: .5em;
 }
 
@@ -21,13 +21,13 @@ body {
 
 .header ul li a {
 	font-weight: bold;
-	color: #484848;
+	color: #303030;
 	font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .header .site-title {
 	font-weight: bold;
-	color: #484848;
+	color: #303030;
 	font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -88,7 +88,7 @@ body {
 
 .footer-content a {
 	font-size: 90%;
-	color: #484848;
+	color: #303030;
 }
 
 .footer-content ul {
@@ -101,7 +101,7 @@ body {
 
 #gototop-btn {
 	display: block;
-	color: #484848;
+	color: #303030;
 	font-size: 90%;
 }
 
@@ -110,12 +110,12 @@ body {
 	padding-right: 0.5em;
 	text-transform: none;
 	font-size: 90%;
-	color: #484848;
+	color: #303030;
 }
 
 .post {
 	font-family: proxima-nova, "Helvetica Neue", Helvetica, Roboto, Arial,sans-serif;
-	color: #484848;
+	color: #303030;
 	letter-spacing: normal;
 	padding-left: 1em;
 }
@@ -193,7 +193,7 @@ body {
 		float: right;
 		padding: .5em 1em;
 		text-decoration: none;
-		color: #484848;
+		color: #303030;
 		font-weight: bold;
 	}
 	#toggle-content li {
@@ -306,7 +306,7 @@ input:focus {
 }
 
 .footer-content-3 a {
-	color: #484848;
+	color: #303030;
 }
 
 a.footer-up {
