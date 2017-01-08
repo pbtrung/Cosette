@@ -217,7 +217,7 @@ body {
 
 .search-input {
 	border: none;
-	background-color: #f5f5f5;
+	background-color: #303030;
 	padding-left: 0.5em;
 	margin-top: 1em;
 	width: 80%;
@@ -228,12 +228,12 @@ input:focus {
 }
 
 .header-main, .search-main, #content, .header ul li a, .footer-content {
-	background-color: #f5f5f5;
-	border-color: #f5f5f5;
+	background-color: #303030;
+	border-color: #303030;
 }
 
 .header-main {
-	border-color: #f5f5f5;
+	border-color: #303030;
 }
 
 .search-icon {
@@ -260,8 +260,8 @@ input:focus {
 }
 
 .gsc-control-cse, .gsc-webResult, .gsc-cursor-box {
-	background-color: #f5f5f5 !important;
-	border-color: #f5f5f5 !important;
+	background-color: #303030 !important;
+	border-color: #303030 !important;
 }
 .gs-image-box, .gsc-above-wrapper-area, .gsc-url-bottom, .gsc-thumbnail, .gs-per-result-labels {
     display: none !important;
@@ -272,8 +272,8 @@ input:focus {
     visibility: hidden !important;
 }
 .gsc-results, .gsc-cursor-box, .gsc-cursor-current-page {
-	background-color: #f5f5f5 !important;
-	border-color: #f5f5f5 !important;
+	background-color: #303030 !important;
+	border-color: #303030 !important;
 }
 
 .post-summary {
@@ -291,7 +291,7 @@ input:focus {
 .footer-content-1 {
 	padding: 0 0 0 0;
 	margin: 0 0 0 0;
-	background-color: #f5f5f5;
+	background-color: #303030;
 	border-top: 1px solid #aaa;
 }
 
