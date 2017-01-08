@@ -2,7 +2,9 @@
 {{ partial "header.html" . }}
 {{ partial "navbar.html" . }}
 
-<title>Page NOT Found</title>
+<script type="text/javascript">
+  document.title = "Page NOT Found";
+</script>
 <div class="pure-g">
   <div class="pure-u-1-24 pure-u-md-7-24"></div>
   <div id="content" class="pure-u-11-12 pure-u-md-10-24">
@@ -17,7 +19,7 @@
          </ol>
          {{ if .Site.Params.img404 }}
          <p style="text-align: center;">
-             <img style="width: 200px;" src="{{ .Site.Params.img404 }}" alt="jetpack" />
+             <img style="width: 200px;" src="{{ .Site.Params.img404 }}" alt="jetpack"/>
          </p>
          {{ end }}
          </div>
