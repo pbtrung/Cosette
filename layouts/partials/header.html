@@ -33,8 +33,9 @@
   {{ end }}
 
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-  <link rel="Shortcut Icon" type="image/x-icon" href="{{ .Site.Params.favicon }}">
+  {{ if .Site.Params.favicon }}
+    <link rel="Shortcut Icon" type="image/x-icon" href="{{ .Site.Params.favicon }}">
+  {{ end }}
 
 </head>
 <body>
